@@ -1,0 +1,8 @@
+{
+  "name": "Tactic - מנהל משימות וביצועים רב-שלבי",
+  "description": "אפליקציה מתקדמת לניהול משימות לפי שעות, ימים, שבועות, חודשים, שנים ומותאם אישית, כולל התחדשות אוטומטית במחזור הבא ומעקב והשוואת ביצועים.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

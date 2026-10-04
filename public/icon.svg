@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#3730a3" />
+    </linearGradient>
+    <linearGradient id="checkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#brandGrad)" />
+  <!-- Card background -->
+  <rect x="80" y="80" width="352" height="352" rx="48" fill="#ffffff" fill-opacity="0.95" />
+  <!-- Check lines -->
+  <rect x="190" y="160" width="180" height="24" rx="12" fill="#4f46e5" />
+  <rect x="190" y="244" width="180" height="24" rx="12" fill="#6366f1" fill-opacity="0.8" />
+  <rect x="190" y="328" width="130" height="24" rx="12" fill="#94a3b8" />
+  <!-- Checkmark box 1 -->
+  <rect x="130" y="152" width="40" height="40" rx="10" fill="url(#checkGrad)" />
+  <path d="M140 172 L148 180 L160 164" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Checkmark box 2 -->
+  <rect x="130" y="236" width="40" height="40" rx="10" fill="url(#checkGrad)" />
+  <path d="M140 256 L148 264 L160 248" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Checkmark box 3 (pending) -->
+  <rect x="130" y="320" width="40" height="40" rx="10" fill="none" stroke="#cbd5e1" stroke-width="4" />
+</svg>
